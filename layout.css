@@ -1,9 +1,13 @@
 header{
-    background: #9D2929;
+    background: linear-gradient(to right, black 50%, #C2261C 50%);
     width: 100%;
     height: 102px;
     padding: 0px;
     margin: 0px;
+}
+header img{
+    width: 117px;
+    margin-left: 50%;
 }
 .imagem{
     display: flex;
@@ -16,15 +20,25 @@ header{
 }
 .texto{
     display: flex;
-    margin-left: 90px;
-    padding-left: 350px ;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 0px ;
 }
-@media (min-width: 428px){
+.texto h1{
+    font-size: 25px;
+}
+@media (max-width: 450px){
     header{
-        width: 428px;
-        height: 102px;
+        width: 450px;
+        height: 70px;
         padding: 0px;
         margin: 0px;  
+    }
+    header img{
+        width: 90px;
+        height: 70px;
+        margin-left: 40%;
     }
     .imagem{
         display: flex;
@@ -34,5 +48,16 @@ header{
         height: 150px;
         margin-left: 5px;
         margin-top: 5px;
+    }
+    .texto{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 5px;
+        padding: 0px;
+    }
+    .texto h1{
+        font-size: 15px;
+        
     }
 }
