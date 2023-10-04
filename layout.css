@@ -1,0 +1,38 @@
+header{
+    background: #9D2929;
+    width: 100%;
+    height: 102px;
+    padding: 0px;
+    margin: 0px;
+}
+.imagem{
+    display: flex;
+}
+.fla img{
+    width: 850px;
+    height: 483px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.texto{
+    display: flex;
+    margin-left: 90px;
+    padding-left: 350px ;
+}
+@media (min-width: 428px){
+    header{
+        width: 428px;
+        height: 102px;
+        padding: 0px;
+        margin: 0px;  
+    }
+    .imagem{
+        display: flex;
+    }
+    .fla img{
+        width: 200px;
+        height: 150px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+}
